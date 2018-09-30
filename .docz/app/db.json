@@ -1,0 +1,53 @@
+{
+  "config": {
+    "title": "Docz Example",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false
+  },
+  "entries": {
+    "index.mdx": {
+      "name": "Hello world",
+      "route": "/",
+      "id": "91149a4106ab27ef746308b41227aca8",
+      "filepath": "index.mdx",
+      "link": null,
+      "slug": "index",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world"
+        }
+      ]
+    },
+    "src/CustomList.mdx": {
+      "name": "Custom List",
+      "route": "/custom-list",
+      "id": "15e2bf6e6d1459b956f897a7ef773eb6",
+      "filepath": "src/CustomList.mdx",
+      "link": null,
+      "slug": "src-custom-list",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "custom-list",
+          "value": "Custom List"
+        },
+        {
+          "depth": 2,
+          "slug": "usage",
+          "value": "Usage"
+        }
+      ]
+    }
+  }
+}

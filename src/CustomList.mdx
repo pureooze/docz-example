@@ -1,0 +1,21 @@
+---
+name: Custom List
+route: '/custom-list'
+---
+
+import { Playground, PropsTable } from 'docz'
+import CustomList from './CustomList'
+
+# Custom List
+
+<PropsTable of={CustomList} />
+
+## Usage
+
+Docz is better than storybook because it is simpler to use and can accomplish the same tasks.
+<Playground>
+{() => {
+const items = [{value: "one", id: 1},{value: "two", id: 2}]
+return <CustomList items={items}/>
+}}
+</Playground>
